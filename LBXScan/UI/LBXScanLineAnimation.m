@@ -38,7 +38,7 @@
     CGFloat leftx = _animationRect.origin.x + 5;
     CGFloat width = _animationRect.size.width - 10;
     
-    self.frame = CGRectMake(leftx, _animationRect.origin.y + 8, width, 8);
+    self.frame = CGRectMake(leftx, _animationRect.origin.y + 4, width, 4);
     
     self.alpha = 0.0;
     
@@ -62,7 +62,7 @@
         
         
         
-        weakSelf.frame = CGRectMake(leftx, _animationRect.origin.y + _animationRect.size.height - 8, width, 4);
+        weakSelf.frame = CGRectMake(leftx, _animationRect.origin.y + _animationRect.size.height - 4, width, 4);
         
     } completion:^(BOOL finished)
      {
